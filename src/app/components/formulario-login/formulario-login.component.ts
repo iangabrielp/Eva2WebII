@@ -25,8 +25,7 @@ export class FormularioLoginComponent {
 
       if (token) {
         localStorage.setItem("login", "true");
-        localStorage.setItem("tipoUsuario", usuario.tipo); // Guardamos el tipo de usuario
-
+        
         // Redirigir según el rol del usuario
         if (usuario.tipo === "docente") {
           this.route.navigate(['docentes']);
