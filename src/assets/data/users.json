@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "email": "maria@gmail.com",
+      "password": "$2a$10$jYKiqwFANZwr5FVMkQ.7W.45b3Q0g1dpJi/6E87lrJ81IpiysDRfC",
+      "id": 1
+    },
+    {
+      "email": "pepito@gmail.com",
+      "password": "$2a$10$uh7jFGdOQFY53Oq/5mKSPObKISLgV11f6rS7L3gGRUMAHooA30DU6",
+      "id": "2"
+    },
+    {
+      "email": "liga@gmail.com",
+      "password": "$2a$10$A52VUgJOGw0gIp5KZYlnE.uJvRu98jLq/2eqPRcGJPrYNirdUInpK",
+      "id": "3"
+    },
+    {
+      "email": "domenica@gmail.com",
+      "password": "$2a$10$ciDv4WyvTkD7/OJ2SagP8.uCsWIeIfAG0Aoqa6R3yjyx/hh1asYcG",
+      "id": "5",
+      "role": "docente"
+    },
+    {
+      "email": "ian@gmail.com",
+      "password": "$2a$10$4Pp25EwgvIe5wZo/FhU8huufPYHMddOns3ByhmJ3Emb1rRu6dO0TK",
+      "id": "6",
+      "role": "estudiante"
+    },
+    {
+      "email": "lili@gmail.com",
+      "password": "$2a$10$uUN3mCPo1qlojZNWKFRom.2/xWdaIxiYoSdQ1TFe4bE1.jolvPWq6",
+      "tipoUsuario": "autor",
+      "id": "X9AU-07"
+    },
+    {
+      "email": "lili@gmail.com",
+      "password": "$2a$10$cjm7Dcfgpd8o6JXWFpgaduBKNuSklzpKBjgFjWALvRplJZcKrQLTy",
+      "tipoUsuario": "autor",
+      "id": "W9XdTd-"
+    },
+    {
+      "email": "avicii@gmail.com",
+      "password": "$2a$10$6QndBoUtjgZEA.l4wOct3evw8N2qWNBwPaR8BtRlC5SBvcGtous8m",
+      "id": "10",
+      "tipoUsuario": "estudiante"
+    }
+  ]
+}

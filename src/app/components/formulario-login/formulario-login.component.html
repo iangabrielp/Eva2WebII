@@ -1,0 +1,30 @@
+
+<div class="min-h-screen bg-cover bg-center flex flex-col justify-center items-center p-6" 
+     style="background-image: url('https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=600');">
+    
+    <h3 class="text-4xl font-extrabold text-cyan-400 mb-6 bg-black bg-opacity-60 px-6 py-3 rounded-lg shadow-lg tracking-wider">
+        Iniciar Sesión
+    </h3>
+
+    <div class="relative overflow-hidden shadow-2xl rounded-lg bg-black bg-opacity-70 backdrop-blur-lg border border-cyan-500 max-w-sm w-full mx-8 p-6">
+        <form #formulario="ngForm" (ngSubmit)="login(formulario)" class="w-full">
+            <div class="mb-5">
+                <label for="email" class="block mb-2 text-sm font-medium text-white">Ingrese email</label>
+                <input type="email" id="email" name="email" [(ngModel)]="email" 
+                       class="bg-gray-800 border border-cyan-400 text-white text-sm rounded-lg focus:ring-cyan-500 focus:border-cyan-500 block w-full p-2.5 shadow-md transition-transform duration-300 ease-in-out hover:scale-105" 
+                       placeholder="name@gmail.com" required />
+            </div>
+            <div class="mb-5">
+                <label for="password" class="block mb-2 text-sm font-medium text-white">Ingrese password</label>
+                <input type="password" id="password" name="password" [(ngModel)]="password" 
+                       class="bg-gray-800 border border-cyan-400 text-white text-sm rounded-lg focus:ring-cyan-500 focus:border-cyan-500 block w-full p-2.5 shadow-md transition-transform duration-300 ease-in-out hover:scale-105" 
+                       placeholder="**************" required />
+            </div>
+
+            <button type="submit" 
+                    class="bg-red-600 hover:bg-red-800 text-white font-bold py-2 px-3 rounded-lg shadow-md transition-all transform hover:scale-110 w-full">
+                Registrarse
+            </button>
+        </form>
+    </div>
+</div>
