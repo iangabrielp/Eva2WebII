@@ -15,9 +15,9 @@ export const loginGuard: CanActivateFn = (route, state) => {
         return false; // Estudiante no puede acceder a docentes
       }
       
-      return true; // Permitir acceso si no hay restricciones
+      return true; 
     }
   }
 
-  return false; // Si no está autenticado, denegar acceso
+  return false; 
 };

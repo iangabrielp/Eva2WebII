@@ -44,6 +44,11 @@
       "password": "$2a$10$6QndBoUtjgZEA.l4wOct3evw8N2qWNBwPaR8BtRlC5SBvcGtous8m",
       "id": "10",
       "tipoUsuario": "estudiante"
+    },
+    {
+      "email": "martin@gmail.com",
+      "password": "$2a$10$p8B8WPm850lvoG0xtcEAPOOBqL7N.MXbBpEfd/xBcp7r8kO8MAAX6",
+      "id": "cShsszp"
     }
   ]
 }
